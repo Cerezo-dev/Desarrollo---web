@@ -1,0 +1,39 @@
+p {
+    color: #707054;
+    font-family: "Cerezo", cursive;
+    font-size: 21px;
+    /*grosor de la fuente*/
+    font-weight: bolder;
+    /*Estilo de la fuente, bold, italic, oblique(con grado de inclinación,ect)*/
+    font-style: normal;
+    /* Alineacion del texto, derecha, izquierda, centro, etc*/
+    text-align: justify;
+    /*Espacio enter parrafo y parrafo*/
+    line-height: 2.2;
+    /*espacio entre letra y letra*/
+    letter-spacing: 8px;
+    /*Mayuscula o miniscula*/
+    text-transform: capitalize;
+    /*Sombras*/
+    text-shadow: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+span {
+    text-decoration: line-through;
+    color: black;
+}
+
+a {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

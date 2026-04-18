@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contacto{
+    background-color: #000002;
+    color: #FFFFFF ;
+    font-size: 11pt;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+}
+
+#funciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+}
+
+#funciones img{
+    margin-left: 35px;
+    width: 138px;
+}
+
+#buscador{
+    position: relative;
+}
+#buscador input{
+    height: 40px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    border: 1px solid #B6B6B6;
+    padding-left: 15pt;
+    margin-top: 20px;
+}
+
+#buscador div {
+    background-color: #F44618;
+    position: absolute;
+    bottom: 7px;
+    right: 0px;
+    padding: 10px;
+    border-radius: 0px 40px 40px 0px ;
+    border: 1px solid #B6B6B6;
+}
+
+#sistema {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    gap: 30x;
+}
+
+#sistema a{
+    background-color: #F44618;
+    color: #F2F2F2;
+    padding: 14px 20px 14px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.boton div{
+    background-color: #F2F2F2;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 27px;
+    left: 3px;
+}
+
+.boton i {
+    color: #F44618;
+    font-size: 14pt;
+}
+
+#sistema a:hover{
+    background-color: #F2F2F2;
+    color: #F44618;
+}
+
+#cart{
+    background-color: #F44618;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -13px;
+    margin-left: 20px ;
+}
+
+#cart i{
+    font-size: 14pt;
+    color: #F2F2F2;
+
+} 
+
+#menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    background-color: #000002;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#F2F2F2;
+}
+
+nav{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+#iconos {
+    display: flex;
+    font-size: 16pt;
+    padding: 16px;
+    border-radius: 50%;
+
+}
+
+#categorias {
+    background-color: #F44618;
+    padding: 20px 20px 15px 20px;
+}
+
+#slider video{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    border-bottom: 5px solid #F44618 ;
+    width: auto;
+}
+
+#padre {
+    margin-top: 36px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+}
+#padre div {
+    width: 200px;
+    height: 100px;
+
+}
+
+#padre img{
+    border-radius: 50%;
+}
